@@ -1426,22 +1426,9 @@ function random(seed) {
                   </div>
                 </div>
               </section>
-          
-              <section>
-                <div class="setting">
-                  <div class="text">
-                    <div class="title">Feedback</div>
-                  </div>
-                  <div class="control">
-                    <a href="mailto:wordle@powerlanguage.co.uk?subject=Feedback" title="wordle@powerlanguage.co.uk">Email</a>
-                    |
-                    <a href="https://twitter.com/intent/tweet?screen_name=powerlanguish" target="blank" title="@powerlanguish">Twitter</a>
-                  </div>
-                </div>
-              </section>
             </div>
             <div id="footnote">
-              <div id="copyright">Copyright 2021-2022. All Rights Reserved.</div>
+              <div id="copyright">Wordle is the work of Josh Wardle</div>
               <div>
                 <div id="puzzle-number"></div>
                 <div id="hash"></div>
