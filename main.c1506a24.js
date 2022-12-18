@@ -1428,6 +1428,7 @@ function random(seed) {
               </section>
             </div>
             <div id="footnote">
+              <a href="https://www.buymeacoffee.com/dduarte" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-blue.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
               <div id="copyright">Wordle is the work of Josh Wardle</div>
               <div>
                 <div id="puzzle-number"></div>
@@ -3001,7 +3002,7 @@ function random(seed) {
                 align-items: center;
                 text-transform: uppercase;
                 -webkit-tap-highlight-color: rgba(0,0,0,0.3);
-                width: 80%;
+                width: 152px;
                 font-size: 20px;
                 height: 52px;
                 -webkit-filter: brightness(100%);
@@ -3049,10 +3050,15 @@ function random(seed) {
                 </div>
               </div>
             </div>
-            <div class="share">
-              <button id="share-button">
-                Share <game-icon icon="share"></game-icon>
-              </button>
+            <div class="buttons" style="display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 5px;">
+                <div class="share">
+                    <button id="share-button">
+                        Share <game-icon icon="share"></game-icon>
+                    </button>
+                </div>
+                <div class="share">
+                    <a href="https://www.buymeacoffee.com/dduarte" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-blue.png" alt="Buy Me A Coffee" style="height: 42px !important;width: 152px !important;" ></a>
+                </div>
             </div>`;
         var Ms = {
                 currentStreak: "Current Streak",
@@ -3486,7 +3492,7 @@ function random(seed) {
             <section>
               <div class="instructions">
                 <p>Guess the <strong>NUMBERLE</strong> in 6 tries.</p>
-                <p>This is a stupid adaptation of Josh Wardle's <strong><a href="https://www.powerlanguage.co.uk/wordle/" target="blank" title="@powerlanguish">Wordle</a></strong>.</p>
+                <p>This is a silly adaptation of Josh Wardle's <strong><a href="https://www.powerlanguage.co.uk/wordle/" target="blank" title="@powerlanguish">Wordle</a></strong>.</p>
                 <p>Each guess must be a valid 5 digit number. Hit the enter button to submit.</p>
                 <p>After each guess, the color of the tiles will change to show how close your guess was to the number.</p>
                 <div class="examples">
