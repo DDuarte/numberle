@@ -14,7 +14,6 @@
     <meta property="og:title" content="Numberle - A daily number game">
     <meta property="og:description" content="Guess the hidden number in 6 tries. A new puzzle is available each day.">
     <meta property="og:image" content="https://dduarte.github.io/numberle/images/numberle_og_1200x630.png">
-    <meta http-equiv="Content-Security-Policy" content="frame-ancestors 'none'">
 
     <!-- Twitter Meta Tags -->
     <meta name="twitter:card" content="summary_large_image">
@@ -121,6 +120,11 @@
     </style>
   </head>
   <body>
+    <script>
+      if (window.top !== window.self) {
+        window.top.location = window.self.location;
+      }
+    </script>
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-9J40ZM4GVG"></script>
     <script>
       (function () {
