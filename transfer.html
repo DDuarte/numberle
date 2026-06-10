@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="noindex" />
+    <title>Numberle — transferring your stats…</title>
+    <!--
+      JS-only "sure thing" page for the PULL path. numberle.com navigates here
+      (?nmpull=1) to retrieve a returning player's saved stats. There is NO
+      meta-refresh or other redirect here, so nothing competes with the script —
+      it always bundles localStorage and redirects back to numberle.com. The
+      shared logic lives in migrate-transfer.js (also used by index.html).
+    -->
+    <script src="migrate-transfer.js"></script>
+    <style>
+      body {
+        font-family: -apple-system, system-ui, sans-serif;
+        text-align: center;
+        margin-top: 25vh;
+        color: #555;
+      }
+    </style>
+  </head>
+  <body>
+    <p>Transferring your Numberle stats to numberle.com…</p>
+    <noscript>
+      <p>
+        JavaScript is required to transfer your stats.
+        <a href="https://numberle.com/">Continue to numberle.com</a>.
+      </p>
+    </noscript>
+  </body>
+</html>
